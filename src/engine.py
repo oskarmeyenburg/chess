@@ -55,7 +55,7 @@ gradient = pygame.transform.smoothscale(
 
 # extract piece from chess_pieces.png
 project_path = os.path.dirname(os.path.split(__file__)[0])
-image_path = os.path.join(project_path, "ressource", "chess_pieces.png")
+image_path = os.path.join(project_path, "assets", "resources", "chess_pieces.png")
 chess_pieces = pygame.image.load(image_path)
 
 
